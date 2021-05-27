@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  position: relative;
+}
+#btn-start {
+  border-radius: 3px;
+  border: none;
+
+  font-size: 2rem;
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p {
+  font-size: 2.5rem;
+}
+#counter {
+  display: block;
+  font-size: 2.5rem;
+}
